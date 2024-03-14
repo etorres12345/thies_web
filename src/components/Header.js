@@ -32,7 +32,7 @@ function Header() {
               <div className="d-flex justify-content-center align-items-center">
                 <FontAwesomeIcon
                   icon={faMapMarkerAlt}
-                  className="icon"
+                  className="icon me-2"
                   size="2x"
                 />
                 <span className="text">Voßbarg 10, 23689 Pansdorf</span>
@@ -40,19 +40,31 @@ function Header() {
             </div>
             <div className="col-sm-6 col-md-6 col-lg-3 mb-2">
               <div className="d-flex justify-content-center align-items-center">
-                <FontAwesomeIcon icon={faPhone} className="icon" size="2x" />
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  className="icon me-2"
+                  size="2x"
+                />
                 <span className="text">+49 4504 606860</span>
               </div>
             </div>
             <div className="col-sm-6 col-md-6 col-lg-3 mb-2">
               <div className="d-flex justify-content-center align-items-center">
-                <FontAwesomeIcon icon={faMobile} className="icon" size="2x" />
+                <FontAwesomeIcon
+                  icon={faMobile}
+                  className="icon me-2"
+                  size="2x"
+                />
                 <span className="text">+49 172 1700648</span>
               </div>
             </div>
             <div className="col-sm-6 col-md-6 col-lg-3 mb-2">
               <div className="d-flex justify-content-center align-items-center">
-                <FontAwesomeIcon icon={faEnvelope} className="icon" size="2x" />
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="icon me-2"
+                  size="2x"
+                />
                 <span className="text">email@thieshansen.de</span>
               </div>
             </div>
