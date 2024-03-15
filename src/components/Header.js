@@ -24,7 +24,7 @@ function Header() {
       </div>
       <div className="col-lg-8 col-sm-12 col-md-8 text-right m-3">
         <div className="header-icons p-1">
-          <div className="row m-auto">
+          <div className="row m-auto align-items-center">
             <div
               className="col-sm-6 col-md-6 col-lg-3"
               onClick={handleMarkerClick}

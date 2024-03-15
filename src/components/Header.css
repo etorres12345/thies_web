@@ -1,11 +1,19 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
 .regular {
-  font-weight: 200;
+  font-weight: 300;
 }
 .normal {
-  font-weight: 200;
+  font-weight: 300;
 }
 .bold {
-  font-weight: 500;
+  font-weight: 450;
+}
+span {
+  font-weight: 300;
+  font-size: 1.1em;
+  font-style: normal;
 }
 @media (max-width: 576px) {
   .logo span {
