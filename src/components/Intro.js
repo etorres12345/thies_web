@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="container mt-5 ml-1 mr-1">
+    <div className="container mt-5 mb-5 pb-5 pt-5 ml-1 mr-1">
       <div className="row">
         <div className="introH1Div col-md-6 col-sm-12 mb-4 mb-md-0 order-md-2 d-flex align-items-center">
           <h1 className="textIntro text-end display-1 p-4">
