@@ -23,7 +23,7 @@ function Navbar() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav text-center">
-            <a className="nav-link mx-lg-3 active" aria-current="page" href="/">
+            <a className="nav-link mx-lg-5 active" aria-current="page" href="/">
               Home
             </a>
             <a className="nav-link mx-lg-5" href="/ubermich">
