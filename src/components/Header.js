@@ -14,7 +14,7 @@ function Header() {
   const handleEMailClick = () => {};
 
   return (
-    <header className="row justify-content-center align-items-center pb-5 pt-5 bg-secondary">
+    <header className="row justify-content-center align-items-center pt-5 pt-sm-5 pb-sm-5 pb-md-3 pt-md-5 pt-lg-5 pb-lg-5 bg-secondary">
       <div className="col-sm-auto col-md-auto col-lg-3 mb-lg-0">
         <h1 className="logo overflow-hidden justify-content-center text-white">
           <span className="regular text-sm">thies</span>
