@@ -14,15 +14,15 @@ function Header() {
   const handleEMailClick = () => {};
 
   return (
-    <header className="row justify-content-center align-items-center pt-5 pt-sm-5 pb-sm-5 pb-md-3 pt-md-5 pt-lg-5 pb-lg-5 bg-secondary">
-      <div className="col-sm-auto col-md-auto col-lg-3 mb-lg-0">
-        <h1 className="logo overflow-hidden justify-content-center text-white">
-          <span className="regular text-sm">thies</span>
+    <header className="row justify-content-center align-items-center pt-5 pt-sm-5 pb-sm-5 pb-md-3 pt-md-5 pt-lg-4 pb-lg-4 bg-secondary">
+      <div className="logo_div col-sm-auto col-md-auto col-lg-3 mb-lg-0">
+        <h1 className="logo overflow-hidden justify-content-center align-items-center text-white">
+          <span className="regular">thies</span>
           <span className="bold">hansen</span>
           <span className="normal">.de</span>
         </h1>
       </div>
-      <div className="col-lg-8 col-sm-12 col-md-8 text-right m-3">
+      <div className="col-lg-8 col-sm-12 col-md-8 text-right m-2">
         <div className="header-icons p-1 d-none d-sm-block">
           <div className="row m-auto align-items-center">
             <div
@@ -33,7 +33,7 @@ function Header() {
                 <FontAwesomeIcon
                   icon={faMapMarkerAlt}
                   className="icon me-2"
-                  size="2x"
+                  size="1x"
                 />
                 <span className="text text-white">
                   Voßbarg 10, 23689 Pansdorf
@@ -45,7 +45,7 @@ function Header() {
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="icon me-2"
-                  size="2x"
+                  size="1x"
                 />
                 <span className="text text-white">+49 4504 606860</span>
               </div>
@@ -55,7 +55,7 @@ function Header() {
                 <FontAwesomeIcon
                   icon={faMobile}
                   className="icon me-2"
-                  size="2x"
+                  size="1x"
                 />
                 <span className="text text-white">+49 172 1700648</span>
               </div>
@@ -65,7 +65,7 @@ function Header() {
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   className="icon me-2"
-                  size="2x"
+                  size="1x"
                 />
                 <span className="text text-white">email@thieshansen.de</span>
               </div>

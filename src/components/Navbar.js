@@ -1,12 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap";
 import "./Navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div className="container-fluid d-flex justify-content-center">
+      <div className="container d-flex justify-content-center">
         <button
           className="navbar-toggler"
           type="button"
@@ -38,7 +37,7 @@ function Navbar() {
             <a className="nav-link mx-lg-5" href="/kunden">
               Kunden
             </a>
-            <a className="nav-link mx-lg-5" href="kontakt">
+            <a className="nav-link mx-lg-5" href="/kontakt">
               Kontakt
             </a>
           </div>
