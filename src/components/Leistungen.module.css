@@ -1,0 +1,7 @@
+.lead {
+  transition: opacity 0.7s ease-in-out;
+}
+
+.lead:hover {
+  opacity: 0.5;
+}

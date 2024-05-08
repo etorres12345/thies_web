@@ -1,6 +1,15 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 export default function Leistungen() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: false,
+    });
+  }, []);
+
   return (
     <div className="container">
       <h2 className=" col-12 text-center display-2">Leistungen</h2>
@@ -96,26 +105,41 @@ export default function Leistungen() {
             </button>
           </div>
         </div>
-        <div className="col-12">
-          <p className="lead">
+        <div className="col-12 fs-4 my-5 pt-3">
+          <p className="mb-5" data-aos="fade-up">
             Wir konzeptionieren, dimensionieren und konstruieren Anlagen zur
-            Wärmeerzeugung, zur Wärmeverteilung und zur Wärmenutzung. Mit allem,
-            was dazu gehört: Dampfumformer, Kessel, BHKW, Wärmetauscher, Pumpen,
-            Druckhaltungen, Rohrleitungen und Armaturen, Speicher, unter- und
-            oberirdische Pipelines. Wir übernehmen sämtliche Planungsleistungen
-            einschließlich der örtlichen Bauüberwachung. Im erdverlegten
-            Rohrleitungsbau schließt dies den Tiefbau (Rohrgräben,
-            Schachtbauwerke, Rohrvortrieb) ein. Wir kümmern uns um jedes Detail
-            der technischen Ausrüstung und gern auch um komplexe
-            Genehmigungsverfahren (BImSchG) oder den Emissionshandel (EU-ETS).
+            Wärmeerzeugung, zur Wärmeverteilung und zur Wärmenutzung.
+          </p>
+          <p className="mb-5" data-aos="zoom-in">
+            Mit allem, was dazu gehört: Dampfumformer, Kessel, BHKW,
+            Wärmetauscher, Pumpen, Druckhaltungen, Rohrleitungen und Armaturen,
+            Speicher, unter- und oberirdische Pipelines. Wir übernehmen
+            sämtliche Planungsleistungen einschließlich der örtlichen
+            Bauüberwachung.
+          </p>
+          <p className="mb-5" data-aos="fade-up">
+            Im erdverlegten Rohrleitungsbau schließt dies den Tiefbau
+            (Rohrgräben, Schachtbauwerke, Rohrvortrieb) ein.{" "}
+          </p>
+          <p className="mb-5" data-aos="slide-right">
+            Wir kümmern uns um jedes Detail der technischen Ausrüstung und gern
+            auch um komplexe Genehmigungsverfahren (BImSchG) oder den
+            Emissionshandel (EU-ETS).{" "}
+          </p>
+          <p className="mb-5" data-aos="fade-up">
             Unser Controlling stellt nicht nur fest, dass Termine oder Budgets
             überschritten werden. Wir ergreifen die Initiative – während des
-            Designs und während der Ausführung. Interdisziplinäres Denken mit
-            einem Gespür für die Wünsche und Zwänge der Projektpartner führt uns
-            zu anerkannten und nachhaltigen Lösungen. Unsere Hilfsmittel halten
-            wir auf der Höhe der Zeit. Gewerke, die wir selbst nicht anbieten
-            können (Hochbau, EMSR), übergeben wir an vertraute Partner, mit
-            denen uns langjährige und verlässliche Kooperationen verbinden.
+            Designs und während der Ausführung.
+          </p>
+          <p className="mb-5" data-aos="flip-right">
+            Interdisziplinäres Denken mit einem Gespür für die Wünsche und
+            Zwänge der Projektpartner führt uns zu anerkannten und nachhaltigen
+            Lösungen. Unsere Hilfsmittel halten wir auf der Höhe der Zeit.
+          </p>
+          <p data-aos="fade-up">
+            Gewerke, die wir selbst nicht anbieten können (Hochbau, EMSR),
+            übergeben wir an vertraute Partner, mit denen uns langjährige und
+            verlässliche Kooperationen verbinden.
           </p>
         </div>
       </div>
