@@ -117,7 +117,7 @@ export default function Leistungen() {
             sämtliche Planungsleistungen einschließlich der örtlichen
             Bauüberwachung.
           </p>
-          <p className="mb-5" data-aos="fade-up">
+          <p className="mb-5 pb-5" data-aos="fade-up">
             Im erdverlegten Rohrleitungsbau schließt dies den Tiefbau
             (Rohrgräben, Schachtbauwerke, Rohrvortrieb) ein.{" "}
           </p>
