@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
+import styles from "./Leistungen.module.css";
 
 export default function Leistungen() {
   useEffect(() => {
@@ -56,7 +57,10 @@ export default function Leistungen() {
                 aria-label="Slide 3"
               ></button>
             </div>
-            <div className="carousel-inner" style={{ height: "500px" }}>
+            <div
+              className="carousel-inner rounded-3"
+              style={{ height: "500px" }}
+            >
               <div className="carousel-item active">
                 <img
                   src={process.env.PUBLIC_URL + "/willkommen-2-06b20e9c.webp"}
@@ -105,38 +109,38 @@ export default function Leistungen() {
             </button>
           </div>
         </div>
-        <div className="col-12 fs-4 my-5 pt-3">
-          <p className="mb-5" data-aos="fade-up">
+        <div className={`col-12 fs-4 my-5 pt-3 ${styles["background-div"]}`}>
+          <p className="mb-5 my-5 py-5" data-aos="fade-up">
             Wir konzeptionieren, dimensionieren und konstruieren Anlagen zur
             Wärmeerzeugung, zur Wärmeverteilung und zur Wärmenutzung.
           </p>
-          <p className="mb-5" data-aos="zoom-in">
+          <p className="my-5 py-5" data-aos="zoom-in">
             Mit allem, was dazu gehört: Dampfumformer, Kessel, BHKW,
             Wärmetauscher, Pumpen, Druckhaltungen, Rohrleitungen und Armaturen,
             Speicher, unter- und oberirdische Pipelines. Wir übernehmen
             sämtliche Planungsleistungen einschließlich der örtlichen
             Bauüberwachung.
           </p>
-          <p className="mb-5 pb-5" data-aos="fade-up">
+          <p className="my-5 py-5" data-aos="fade-up">
             Im erdverlegten Rohrleitungsbau schließt dies den Tiefbau
             (Rohrgräben, Schachtbauwerke, Rohrvortrieb) ein.{" "}
           </p>
-          <p className="mb-5" data-aos="slide-right">
+          <p className="my-5 py-5" data-aos="slide-right">
             Wir kümmern uns um jedes Detail der technischen Ausrüstung und gern
             auch um komplexe Genehmigungsverfahren (BImSchG) oder den
             Emissionshandel (EU-ETS).{" "}
           </p>
-          <p className="mb-5" data-aos="fade-up">
+          <p className="my-5 py-5" data-aos="fade-up">
             Unser Controlling stellt nicht nur fest, dass Termine oder Budgets
             überschritten werden. Wir ergreifen die Initiative – während des
             Designs und während der Ausführung.
           </p>
-          <p className="mb-5" data-aos="flip-right">
+          <p className="my-5 py-5" data-aos="flip-right">
             Interdisziplinäres Denken mit einem Gespür für die Wünsche und
             Zwänge der Projektpartner führt uns zu anerkannten und nachhaltigen
             Lösungen. Unsere Hilfsmittel halten wir auf der Höhe der Zeit.
           </p>
-          <p data-aos="fade-up">
+          <p className="my-5 py-5" data-aos="fade-up">
             Gewerke, die wir selbst nicht anbieten können (Hochbau, EMSR),
             übergeben wir an vertraute Partner, mit denen uns langjährige und
             verlässliche Kooperationen verbinden.

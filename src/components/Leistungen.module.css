@@ -5,3 +5,8 @@
 .lead:hover {
   opacity: 0.5;
 }
+.background-div {
+  background-image: url("/willkommen-1-153303e6.webp");
+  background-size: cover;
+  background-position: center;
+}

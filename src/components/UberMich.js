@@ -1,13 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./UberMich.css";
+import { useInView } from "react-intersection-observer";
 
 export default function UberMich() {
+  const [typedText, setTypedText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+    triggerOnce: true,
+  });
+
+  useEffect(() => {
+    let timer;
+    if (inView) {
+      timer = setTimeout(() => {
+        if (currentIndex < "Thies Hansen".length) {
+          setTypedText((prev) => prev + "Thies Hansen"[currentIndex]);
+          setCurrentIndex((prev) => prev + 1);
+        }
+      }, 100);
+    }
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [currentIndex, inView]);
+
+  useEffect(() => {
+    if (!inView) {
+      setTypedText("");
+      setCurrentIndex(0);
+    }
+  }, [inView]);
+
   return (
     <div className="container mt-5 pt-5 mb-5 pb-5 bg-dark text-light rounded">
       <div className="row">
         <div className="uberMichHeadingDiv col-12">
-          <h2 className="uMichH2 text-center text-lg-center mb-5 fs-1 customUmichColor">
-            Thies Hansen
+          <h2
+            ref={ref}
+            className="uMich2 text-center text-lg-center mb-5 fs-1 customUmichColor"
+          >
+            {typedText}
           </h2>
         </div>
         <div className="col-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center display-6">
