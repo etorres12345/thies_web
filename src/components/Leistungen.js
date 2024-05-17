@@ -16,17 +16,19 @@ export default function Leistungen() {
       <h2 className=" col-12 text-center display-2">Leistungen</h2>
       <div className="row">
         <div className="col-md-6 col-xs-12 text-center m-auto align-items-center">
-          <p className="my-5 display-6 text-end">
+          <p
+            className={`my-5 display-6 text-end high-blue ${styles["high-blue"]}`}
+          >
             Das Ingenieurbüro für <strong>Energie- und Anlagentechnik</strong>{" "}
             ist auf <strong>Wärmeversorgung</strong> <em>spezialisiert.</em>
           </p>
-          <p className="mb-4 display-6">
+          <p className={`mb-4 display-6 ${styles["high-blue"]}`}>
             Zwischen <strong>2 und 200 MW</strong> fühlen wir uns{" "}
             <strong>
               <em>wohl.</em>
             </strong>
           </p>
-          <p className="fs-3">
+          <p className={`fs-3 ${styles["high-blue"]}`}>
             <strong>"Wir"</strong> schließt dabei die Fachleute ein, die mich in
             der Konstruktions-, Zeichen- und Detailarbeit als Subunternehmer
             oder Freiberufler unterstützen und denen ich an dieser Stelle für
@@ -110,37 +112,43 @@ export default function Leistungen() {
           </div>
         </div>
         <div className={`col-12 fs-4 my-5 pt-3 ${styles["background-div"]}`}>
-          <p className="mb-5 my-5 py-5" data-aos="fade-up">
+          <p className={`my-5 py-4 ${styles["high-blue"]}`} data-aos="fade-up">
             Wir konzeptionieren, dimensionieren und konstruieren Anlagen zur
             Wärmeerzeugung, zur Wärmeverteilung und zur Wärmenutzung.
           </p>
-          <p className="my-5 py-5" data-aos="zoom-in">
+          <p className={`my-5 py-4 ${styles["high-blue"]}`} data-aos="zoom-in">
             Mit allem, was dazu gehört: Dampfumformer, Kessel, BHKW,
             Wärmetauscher, Pumpen, Druckhaltungen, Rohrleitungen und Armaturen,
             Speicher, unter- und oberirdische Pipelines. Wir übernehmen
             sämtliche Planungsleistungen einschließlich der örtlichen
             Bauüberwachung.
           </p>
-          <p className="my-5 py-5" data-aos="fade-up">
+          <p className={`my-5 py-4 ${styles["high-blue"]}`} data-aos="fade-up">
             Im erdverlegten Rohrleitungsbau schließt dies den Tiefbau
             (Rohrgräben, Schachtbauwerke, Rohrvortrieb) ein.{" "}
           </p>
-          <p className="my-5 py-5" data-aos="slide-right">
+          <p
+            className={`my-5 py-4 ${styles["high-blue"]}`}
+            data-aos="slide-right"
+          >
             Wir kümmern uns um jedes Detail der technischen Ausrüstung und gern
             auch um komplexe Genehmigungsverfahren (BImSchG) oder den
             Emissionshandel (EU-ETS).{" "}
           </p>
-          <p className="my-5 py-5" data-aos="fade-up">
+          <p className={`my-5 py-4 ${styles["high-blue"]}`} data-aos="fade-up">
             Unser Controlling stellt nicht nur fest, dass Termine oder Budgets
             überschritten werden. Wir ergreifen die Initiative – während des
             Designs und während der Ausführung.
           </p>
-          <p className="my-5 py-5" data-aos="flip-right">
+          <p
+            className={`my-5 py-4 ${styles["high-blue"]}`}
+            data-aos="flip-right"
+          >
             Interdisziplinäres Denken mit einem Gespür für die Wünsche und
             Zwänge der Projektpartner führt uns zu anerkannten und nachhaltigen
             Lösungen. Unsere Hilfsmittel halten wir auf der Höhe der Zeit.
           </p>
-          <p className="my-5 py-5" data-aos="fade-up">
+          <p className={`my-5 py-4 ${styles["high-blue"]}`} data-aos="fade-up">
             Gewerke, die wir selbst nicht anbieten können (Hochbau, EMSR),
             übergeben wir an vertraute Partner, mit denen uns langjährige und
             verlässliche Kooperationen verbinden.
